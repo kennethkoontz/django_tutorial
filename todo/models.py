@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib import admin
 
 class Item(models.Model):
     name = models.CharField(max_length=60)
